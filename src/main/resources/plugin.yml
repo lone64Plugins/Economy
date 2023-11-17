@@ -1,0 +1,14 @@
+name: mConomy
+main: org.lone64.mconomy.Mconomy
+author: lone64
+version: 1.0.0
+api-version: '1.19'
+description: MineEconomy 플러그인
+folia-supported: true
+depend:
+  - Economy
+commands:
+  mymoney:
+    description: 본인의 경제 잔고를 확인합니다.
+  setmoney:
+    description: 본인의 경제 잔고를 설정합니다.
